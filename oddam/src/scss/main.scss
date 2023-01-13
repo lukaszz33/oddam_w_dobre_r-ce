@@ -1,0 +1,15 @@
+@import './colors.scss';
+@import './fonts.scss';
+@import './global.scss';
+@import './reset.scss';
+@import '.././components/Header/homeheader';
+@import '.././components/HomeThreeColumns/threecolumns';
+@import '.././components/HomeSteps/homesteps';
+@import '.././components/HomeAbout/homeabout';
+
+
+body {
+font-size: 10px;
+font-family: $font-base;
+box-sizing: border-box;
+}

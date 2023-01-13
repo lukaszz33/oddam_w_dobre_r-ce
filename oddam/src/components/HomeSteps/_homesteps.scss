@@ -1,0 +1,45 @@
+.homesteps__box--title {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	margin: 3rem 0 1rem 0;
+}
+
+.homesteps__box--main {
+	display: flex;
+	justify-content: center;
+	flex-direction: row;
+}
+
+.homesteps__box--small {
+	display: flex;
+	flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 5rem;
+}
+
+.homesteps__icons {
+    width: 5rem;
+}
+
+.homesteps__text1 {
+	text-align: center;
+	color: #3c3c3c;
+    margin-top: 1rem;
+    font-size: 1.3rem;
+    border-bottom: 1px solid #707070;
+}
+
+.homesteps__text2 {
+    font-size: 1rem;
+}
+
+.homesteps__button {
+    margin: 0 auto;
+    width: 14rem;
+    margin-bottom: 4rem;
+	text-decoration: none;
+	
+}
