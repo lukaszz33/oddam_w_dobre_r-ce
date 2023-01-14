@@ -1,0 +1,100 @@
+.contact__box {
+	width: 100%;
+	display: flex;
+}
+
+.contact__box--img img {
+	width: 140%;
+	opacity: 0.5;
+}
+
+.contact__box--content {
+	width: 50%;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	margin-right: 15rem;
+	opacity: 1;
+	z-index: 999;
+}
+
+.contact__inputs--box {
+	display: flex;
+	margin-top: 2.5rem;
+}
+
+.contact__name--box,
+.contact__email--box {
+	margin: 2rem 1rem;
+}
+
+.contact__placeholder {
+	text-align: left;
+	font-size: 1rem;
+	font-weight: 600;
+	letter-spacing: 0px;
+	color: #3c3c3c;
+	margin: 0.5rem 0;
+}
+
+.contact__inputs--item {
+	width: 15rem;
+	padding: 0.5rem;
+	border: none;
+	border-bottom: 1px solid #707070;
+	background-color: transparent;
+}
+
+.contact__inputs--textarea {
+	width: 33rem;
+	height: 8em;
+	
+}
+
+.contact__button {
+	border: 0.75px solid #3c3c3c;
+	padding: 0.65rem 2.4rem;
+	font-size: 0.95rem;
+	font-weight: 100;
+	color: #3c3c3c;
+	margin-top: 1rem;
+	margin-left: 0.8rem;
+	display: flex;
+	align-self: flex-end;
+}
+
+.contact__footer--box {
+display: flex;
+justify-content: flex-end;
+margin-top: -2.5rem;
+margin-right: 2.5rem;
+}
+
+.contact__footer--txt  {
+    color: #3C3C3C;
+    font-size: 1rem;
+    text-align: center;
+    padding: 1rem;
+    margin: 0 auto;
+ 
+}
+
+.contact__footer--fb, .contact__footer--ig {
+  margin: 0 0.5rem;
+}
+
+.contact__validate--error {
+	color: tomato;
+	margin-top: 0.5rem;
+	font-size: 0.9rem;
+	font-weight: 500;	
+}
+
+.contact__validate--error-border {
+	border-bottom: 1px solid tomato;
+}
+
+.contact__textarea--box {
+	margin-left: 0.9rem;
+}
