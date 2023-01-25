@@ -1,0 +1,37 @@
+.login__box {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	margin: 10rem;
+}
+
+.login__decoration {
+	margin-top: 1rem;
+}
+
+.login__inputs--box {
+	background: #f0f1f1;
+	padding: 1.5rem 5rem;
+	margin-top: 2rem;
+}
+
+.login__input--title {
+	font: 600 1rem Open Sans;
+	color: #3c3c3c;
+	margin: 0.6rem 0;
+}
+
+.login__action--box {
+	display: flex;
+}
+.login__button--action {
+    padding: 1rem;
+    font: 300 1.1rem Open Sans;
+    margin: 1.5rem 8rem;
+
+
+	&:hover {
+		border: 0.75px solid #3c3c3c;
+	}
+}

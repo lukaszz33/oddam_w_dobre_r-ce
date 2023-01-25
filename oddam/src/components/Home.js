@@ -4,7 +4,9 @@ import HomeThreeColumns from './HomeThreeColumns/HomeThreeColumns'
 import HomeSteps from './HomeSteps/HomeSteps'
 import HomeAbout from './HomeAbout/HomeAbout'
 import Contact from './Contact/Contact'
+import Login from './Login/Login';
 import { Outlet } from 'react-router-dom'
+import { HomeWhoWeHelp } from './HomeWhoWeHelp/HomeWhoWeHelp'
 
 
 
@@ -15,6 +17,7 @@ const Home = () => {
 			<HomeThreeColumns />
 			<HomeSteps />
 			<HomeAbout />
+			<HomeWhoWeHelp/>
 			<Contact />
 		</>
 	)
